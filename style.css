@@ -1,0 +1,109 @@
+/*hero
+School
+College
+University*/
+body
+{
+    margin: 0;
+    font-family: fantasy;
+    background-color: rgb(223, 249, 240);
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: brown;
+    color: rgb(239, 4, 47);
+    padding: 18px;
+    font-size: 20px;
+    gap: 20px;
+    position:sticky;
+    width: auto;
+}
+nav a {
+    color: rgb(239, 4, 47);
+    text-decoration: none;
+    font-weight: none
+    ;
+}
+nav a:hover {
+    color: rgb(219, 239, 4);
+    text-decoration: none;
+}
+#hero{
+    text-align: center;
+    padding: 10px;
+    background-color: darkseagreen;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#hero img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+
+}
+
+#edu{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px;
+}
+#Edu img{
+    width: auto;
+    height: 200px;
+    background-color: rgb(244, 236, 236);
+    padding: 5px;
+    border:5px solid black;
+    border: 10px;
+
+}
+#School{
+    text-align: center;
+    padding:20px;
+    background-color: darkseagreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    gap: 100px;
+}
+
+#School img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+
+}
+#College{
+    text-align:center;
+    padding:20px;
+    background-color: darkseagreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    gap: 100px;
+    
+}
+
+#College img{
+    width: 500px;
+    height: 600px;
+    border-radius: 50%;
+border: 10px;
+}
+#University{
+    text-align:center;
+    padding:20px;
+    background-color: darkseagreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    gap: 100px;
+}
+
+#University img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+
+}
